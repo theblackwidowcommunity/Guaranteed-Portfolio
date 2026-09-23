@@ -50,7 +50,7 @@ function Home2() {
                 <b className="purple">
                   {" "}
                   Web Applications, Blockchain Solutions,{" "}
-                </b>
+                </b> 
               </i>
               Don't be shy, brag about what you're good at, no matter how small you think it is. It's called selling yourself.
               <br />
