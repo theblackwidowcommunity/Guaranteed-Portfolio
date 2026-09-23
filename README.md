@@ -85,6 +85,10 @@ I’ve attached an image below showing where this is located.
 
 <img src="README-Images/Connect-github.png" width="1000">
 
+OR
+
+<img src="README-Images/add_new_project_vercel.png" width="1000">
+
 Connect your GitHub account inside the **Import Git Repository** section:
 
 1. Connect your GitHub account to Vercel
