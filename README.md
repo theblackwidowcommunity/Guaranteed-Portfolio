@@ -229,7 +229,7 @@ If Vercel gives you a confirmation prompt like the one below, any of the two opt
 
 <img src="README-Images/change-domain-name-prompt.png" width="1000">
 
-If by any chance you encountered a strange error not on this README or accidentally deleted all domains or something important you can always start a fresh or post your error in <a href="https://www.skool.com/bree-1280/about"> The Black Widow Community</a> and we'll help you solve it.
+If by any chance you encountered a strange error not on this README or accidentally deleted all domains or something important you can always start a fresh or post your error in <a href="https://www.skool.com/bree-1280/about" target="_blank"> The Black Widow Community</a> and we'll help you solve it.
 
 
 ---
