@@ -302,7 +302,7 @@ This portfolio was built to be easy to personalize, even if you’re a beginner.
 
 Head back to your GitHub under the Guaranteed-Portoflio main page, like the image below.
 
-<img src="README-Images/change-domain-name-prompt.png" width="1000">
+<img src="README-Images/github-portfolio-main-page.png" width="1000">
 
 ---
 
