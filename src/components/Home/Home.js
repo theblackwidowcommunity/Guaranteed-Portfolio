@@ -21,7 +21,7 @@ function Home() {
                     Only keep ONE & replace it in the span code: 👋 👋🏻 👋🏼 👋🏽 👋🏾 👋🏿 */}
 
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                  👋
                 </span>
               </h1>
 
