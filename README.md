@@ -87,7 +87,7 @@ I’ve attached an image below showing where this is located.
 
 OR
 
-<img src="README-Images/add_new_project_vercel.png" width="1000">
+<img src="README-Images/add_new_project.png" width="1000">
 
 Connect your GitHub account inside the **Import Git Repository** section:
 
