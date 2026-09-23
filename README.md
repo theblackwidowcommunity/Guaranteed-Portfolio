@@ -1,6 +1,47 @@
 Hey There,
 Before you begin, it is highly recommended that you customize this portfolio on a **laptop or medium-to-large screen device**.
 
+## 🖥️ Setup Recommendation
+
+For the smoothest experience, it is recommended that you have 2 browser tabs open side-by-side while customizing the portfolio.
+
+🪟 Windows Users / 🐧 Linux Users
+
+1. Open one tab for reading these instructions.
+   
+      Then press on your keyboard:
+   
+          Windows/Super Key + ← (left arrow key)  **Press both at the same time**
+      
+      This will show instructions to the left side of your screen.
+
+
+2. Open a second tab for editing the code.
+   
+      Then press on your keyboard:
+   
+         Windows/Super Key + → (right arrow key)   **Long press windows/super key then click once on the arrow key **
+            
+      This will show instructions to the right side of your screen.
+
+🍎 macOS Users
+
+1. Open one tab for reading these instructions.
+
+      Hover over the green fullscreen button at the top-left corner of the window.
+
+      Then choose:
+
+         Tile Window to Left of Screen
+   
+2. Open your second tab or code editor.
+
+      Select:
+
+         Tile Window to Right of Screen
+   
+      macOS will automatically place both windows side-by-side.
+
 ---
 
 # 🚀 Portfolio Deployment & Setup Guide
@@ -252,51 +293,6 @@ Head over to the Vercel platform and check:
       Deployment Build Logs
 
 Vercel usually gives very helpful error messages explaining what caused the problem. And of course, feel free to ask <a href="https://www.skool.com/bree-1280/about" target="_blank" rel="noopener noreferrer"> The Black Widow Community</a> for some help along the way.
-
-
----
-
-
-## 🖥️ Setup Recommendation
-
-For the smoothest experience, it is recommended that you have 2 browser tabs open side-by-side while customizing the portfolio.
-
-🪟 Windows Users / 🐧 Linux Users
-
-1. Open one tab for reading these instructions.
-   
-      Then press on your keyboard:
-   
-          Windows/Super Key + ← (left arrow key)  **Press both at the same time**
-      
-      This will show instructions to the left side of your screen.
-
-
-2. Open a second tab for editing the code.
-   
-      Then press on your keyboard:
-   
-         Windows/Super Key + → (right arrow key)   **Long press windows/super key then click once on the arrow key **
-            
-      This will show instructions to the right side of your screen.
-
-🍎 macOS Users
-
-1. Open one tab for reading these instructions.
-
-      Hover over the green fullscreen button at the top-left corner of the window.
-
-      Then choose:
-
-         Tile Window to Left of Screen
-   
-2. Open your second tab or code editor.
-
-      Select:
-
-         Tile Window to Right of Screen
-   
-      macOS will automatically place both windows side-by-side.
 
 
 ---
