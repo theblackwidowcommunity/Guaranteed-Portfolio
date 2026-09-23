@@ -77,7 +77,7 @@ When creating your account:
 
 ✨ Step 4: Connect GitHub To Vercel
 
-Once logged into Vercel, locate the section called:
+Make sure your signed in with your same GitHub email that contains the portfolio. Once logged into Vercel, locate the section called:
 
       Import Git Repository or Add New Project
 
