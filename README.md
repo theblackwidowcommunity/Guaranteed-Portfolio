@@ -851,7 +851,7 @@ Locate and open this file:
 
       src/components/Resume/ResumeNew.js
 
-Yes, the file is called **ResumeNew.js**. Inside the file, look at **line 12**.
+Yes, the file is called **ResumeNew.js**. Inside the file, look at **line 9**.
 
 You will see some instructions to replace The Resume File Name.
 
