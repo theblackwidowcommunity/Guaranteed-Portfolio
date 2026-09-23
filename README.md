@@ -440,7 +440,7 @@ Yes, the file is called **Navbar.js**. This file controls the navigation bar dis
 
 Inside `Navbar.js`, go to **line 51**.
 
-You will see some instructions to change the brand name from `[Name]` to your choosing. Your portfolios main home page should now show your brand name after vercel has deployed.
+You will see some instructions to change the brand name from `[Name]` to your choosing, don't forget to save your changes. Your portfolios main home page should now show your brand name after vercel has deployed.
 
 Now let’s add your brand name to the very top of the browser tab.
 
