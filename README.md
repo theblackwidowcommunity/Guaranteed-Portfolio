@@ -45,7 +45,7 @@ Inside the Settings page:
 
 Scroll all the way to the bottom and locate the section called `Danger Zone` like shown in the image below and select `Leave Fork Network`
 
-Accept the terms and conditions, pass the security check and click enter.
+Accept the terms and conditions, pass the security check and leave the fork network.
 
 <img src="README-Images/danger-zone.png" width="1000">
 
