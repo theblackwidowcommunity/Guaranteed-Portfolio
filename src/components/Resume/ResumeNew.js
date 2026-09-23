@@ -7,7 +7,7 @@ import pdf from "../../Assets/Placeholder_CV.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 // EDIT THIS PART:
-// The import above on line 5 where it says Placeholder_CV.pdf, change it to your resume file name.
+// The import above on line 6 where it says Placeholder_CV.pdf, change it to your resume file name.
 // Do not change anything else on that line.
 
 
