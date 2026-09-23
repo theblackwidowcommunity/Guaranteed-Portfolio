@@ -296,7 +296,7 @@ Vercel usually gives very helpful error messages explaining what caused the prob
 
 
 ---
-
+ 
 
 This portfolio was built to be easy to personalize, even if you’re a beginner. Don’t worry if some of this feels new at first, you only need to change a few lines to make the portfolio feel completely yours.
 
