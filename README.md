@@ -898,11 +898,5 @@ You never know who might discover your work.
 
 # 🤝 Need Help?
 
-If you encounter any challenges, you’re always welcome to reach out to me personally on LinkedIn, I'll try my best to assist, please present the full problem, if the message is too vague I might not have a fast response:
-
-[Bree Kagwe LinkedIn](https://www.linkedin.com/in/bree-kagwe/?utm_source=chatgpt.com)
-
-Or ask an AI you trust for some assistance. Hey were living in the future, why not?
-
-
+If you encounter any challenges, you’re always welcome to post your errors here to receive some assistance: <a href="https://www.skool.com/bree-1280/about" target="_blank" rel="noopener noreferrer"> The Black Widow Community</a>
 
