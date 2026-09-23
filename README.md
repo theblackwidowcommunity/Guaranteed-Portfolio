@@ -126,9 +126,9 @@ If you immediately see a:
 * 🔴 Red dot = deployment error
 * 🟢 Green dot = successful deployment
 
-then don’t worry. If you received a green dot, you can skip Step 6 the troubleshooting step.
+then don’t worry. If you received a green dot or a successful deployment, you can skip the next step. 
 
-If you received a red dot, continue below.
+Step 6 is the troubleshooting step if your code didn't deploy. If you received a red dot, continue below.
 
 
 ---
