@@ -58,7 +58,7 @@ First, open:
 
 [Vercel](https://vercel.com)
 
-I’ve attached an image below showing what the homepage looks like.
+I’ve attached an image below showing what the homepage looks like, but is subject to change with improvements from the organization.
 
 <img src="README-Images/Open-vercel.png" width="1000">
 
