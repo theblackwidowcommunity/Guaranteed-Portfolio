@@ -217,11 +217,13 @@ Select: "Domains" from the left-hand sidebar then click, Edit like shown in the 
 
 <img src="README-Images/change-domain-name.png" width="1000">
 
-Enter your preferred domain name, just make sure it ends with:
+Enter your preferred domain name, just make sure it ends with this, just like the image below:
 
       .vercel.app
 
-Click: Save, remember this is a React app meaning it needs vercel to deploy the code.
+<img src="README-Images/changing-domain-name-vercel.png" width="1000">
+
+Click: Save. 
 
 If Vercel gives you a confirmation prompt like the one below, any of the two option should work fine.
 
