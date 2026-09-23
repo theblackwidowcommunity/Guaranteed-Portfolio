@@ -85,7 +85,7 @@ I’ve attached an image below showing where this is located.
 
 <img src="README-Images/Connect-github.png" width="1000">
 
-Connect your gitHub account inside the **Import Git Repository** section:
+Connect your GitHub account inside the **Import Git Repository** section:
 
 1. Connect your GitHub account to Vercel
 2. You should now see an **Install** button appear
