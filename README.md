@@ -249,9 +249,9 @@ If your code ever stops working or something breaks:
 
 Head over to the Vercel platform and check:
 
-      Deployment Errors
+      Deployment Build Logs
 
-Vercel usually gives very helpful error messages explaining what caused the problem. And of course, feel free to ask your AI assistant for some help along the way.
+Vercel usually gives very helpful error messages explaining what caused the problem. And of course, feel free to ask <a href="https://www.skool.com/bree-1280/about" target="_blank" rel="noopener noreferrer"> The Black Widow Community</a> for some help along the way.
 
 
 ---
