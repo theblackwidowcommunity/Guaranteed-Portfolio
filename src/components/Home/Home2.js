@@ -52,7 +52,7 @@ function Home2() {
                   Web Applications, Blockchain Solutions,{" "}
                 </b>
               </i>
-              Don't be shy, boost about what your good at, no matter how small you think it is. It's called selling yourself.
+              Don't be shy, brag about what you're good at, no matter how small you think it is. It's called selling yourself.
               <br />
               <br />
               I am undeniably good with
