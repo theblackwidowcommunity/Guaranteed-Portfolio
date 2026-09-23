@@ -45,6 +45,8 @@ Inside the Settings page:
 
 Scroll all the way to the bottom and locate the section called `Danger Zone` like shown in the image below and select `Leave Fork Network`
 
+Accept the terms and conditions, pass the security check and click enter.
+
 <img src="README-Images/danger-zone.png" width="1000">
 
 This disconnects your repository from the original fork network and makes your portfolio completely yours.
