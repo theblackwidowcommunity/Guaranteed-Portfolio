@@ -3,11 +3,11 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import WriteupPDF from "../Projects/Writeups/WriteupPDF";
-import pdf from "../../Assets/Placeholder_CV.pdf";
+import pdf from "../../Assets/Official Unfinished Resume Edit.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 // EDIT THIS PART:
-// The import above on line 6 where it says Placeholder_CV.pdf, change it to your resume file name.
+// The import above on line 5 where it says Placeholder_CV.pdf, change it to your resume file name.
 // Do not change anything else on that line.
 
 
@@ -20,6 +20,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
+            className="resume-cv-btn"
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
@@ -36,6 +37,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
+            className="resume-cv-btn"
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
