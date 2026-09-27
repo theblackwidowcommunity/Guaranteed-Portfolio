@@ -63,8 +63,7 @@ function Projects() {
             <ProjectCard
               imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
               title="Thinking Like A Hacker"
-              description="A demonstration of how hackers find open doors in a network before the bad guys do. This project shows the tools and steps used to safely test a system's weak points, helping organisations fix problems before they become breaches."
-              writeupLink="/writeup/ThinkingLikeAHacker"
+              description="Learn to use theHarvester for Open Source Intelligence to gather data on targets."
             />
           </Col>
 
@@ -73,7 +72,7 @@ function Projects() {
             <ProjectCard
               imgPath={require("../../Assets/ProjectImages/placeholder2.jpeg")}
               title="Phishing Simulation"
-              description="Ever wondered how people fall for fake emails? This project recreates a controlled phishing attack to show how convincing these tricks can be, and more importantly, how to spot and avoid them in real life."
+              description="Learn how phishing emails are crafted, why awareness matters, and how to protect yourself and others."
               writeupLink="/writeup/PhishingSimulation"
             />
           </Col>
@@ -83,7 +82,7 @@ function Projects() {
             <ProjectCard
               imgPath={require("../../Assets/ProjectImages/placeholder3.jpeg")}
               title="Password Cracking 101"
-              description="This project demonstrates how weak passwords can be cracked in seconds using common tools. It highlights why strong, unique passwords matter and how attackers think when trying to get into your accounts."
+              description="You'll learn password cracking with John the Ripper, plus how to build safe passwords."
               writeupLink="/writeup/PasswordCracking101"
             />
           </Col>
@@ -92,8 +91,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/ProjectImages/placeholder4.jpeg")}
-              title="Building a Digital Alarm System"
-              description="Just like a home alarm system, this project sets up alerts that notify you the moment something suspicious happens on a network. It shows how defenders can catch attackers early before any real damage is done."
+              title="Hijacking Browsers with Sneaky Code"
+              description="Learn how attackers sneak harmful code into websites, and how to stop it from happening."
               writeupLink="/writeup/BuildingDigitalAlarmSystem"
             />
           </Col>
@@ -102,8 +101,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/ProjectImages/placeholder5.jpeg")}
-              title="Incident Response Walkthrough"
-              description="What do you do when you've already been hacked? This project walks through the steps a security team takes to identify what happened, stop the attack, and make sure it never happens again."
+              title="Locking Down Your Environment"
+              description="Attacking anything outside a lab is a crime. First set up your isolated environment to keep you legal."
               writeupLink="/writeup/IncidentResponseWalkthrough"
             />
           </Col>
@@ -112,8 +111,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={require("../../Assets/ProjectImages/placeholder6.jpeg")}
-              title="Threat Hunting on a Budget"
-              description="This project shows how to proactively search through a network for hidden threats using free tools. Think of it as going on patrol before anything bad happens, rather than waiting for an alarm to go off."
+              title="Peeking Into a Network"
+              description="Learn Nmap scanning to find active devices and see exactly what's open to attack."
               writeupLink="/writeup/ThreatHuntingOnABudget"
             />
           </Col>
