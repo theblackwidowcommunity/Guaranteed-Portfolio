@@ -618,168 +618,204 @@ By now, you should notice some massive changes and the portfolio should start fe
 
 # 📂 Projects Page Customization
 
-✨ Step 1: Adding And Editing Projects 
-
-Now we’re moving onto the **Projects Section** of the portfolio. Don’t worry, we’ve already completed around **80% of the customization** 🎉
+Now we’re moving onto the Projects Section of the portfolio. Don’t worry, we’ve already completed around 80% of the customization 🎉
 
 This section is where visitors can explore your projects, labs, write-ups, tools, and anything else you want to showcase.
 
-Locate this folder:
+Every project is made up of two parts:
 
-      src/components/Projects/Writeups
+The project card: the card shown on the Projects page (title, description, image and a View Project button). Controlled by src/components/Projects/Projects.js
+The write-up page: the page that opens when someone clicks View Project. Each write-up page displays a PDF that you upload. You no longer need to write any HTML. Controlled by a file inside src/components/Projects/Writeups
 
-This folder contains all of the individual project write-up pages used throughout your portfolio. Whenever you've completed a project's write-up store the code inside here in `.js` format.
+The steps below walk you through both parts.
 
-⚠️ Important:
+✨ Step 1: Upload Your Write-Up PDF
 
-You can use the already existing `.js` files as a template and only change the code between **line 19** that says:
+First, write up your project in Microsoft Word, Google Docs, or any tool you like, then export it as a PDF. Put your screenshots and diagrams directly inside the document before exporting, they will be part of the PDF.
 
-      /* ===================== EDIT BETWEEN THIS LINES SECTIONS ===================== */
+Then locate this folder:
 
-You can upload your project documentation using the same upload process from Step 8 in the Home Page customization section.
+  src/Assets/Project-Writeups-PDF
+
+Upload your PDF here using the same upload process from Step 8 in the Home Page customization section.
 
 That means:
 
-* Click the Upload Files button
-* Select your documentation file
-* Click the Commit Changes button
-  
-💡 Helpful Tip
+Click the Upload Files button
+Select your PDF write-up
+Click the Commit Changes button
 
-You can write your project documentation in: Microsoft Word, Google Docs, Or as a PDF. Then ask an AI assistant to convert your documentation into HTML code.
+📌 Important
 
-Once converted, copy and paste the generated HTML code into your write-up file between the `EDIT BETWEEN THIS LINES SECTIONS`.
+Remember the exact full file name of your PDF, for example MyNmapProject.pdf. You will need it in the next step. File names without spaces are the safest choice.
 
+The folder already contains two sample write-ups (SampleWriteup_OnePage.pdf and SampleWriteup_VulnerableWebApp.pdf) so you can see how a write-up looks before you add your own.
 
----
+✨ Step 2: Connect Your PDF To A Write-Up Page
 
+Now go to this folder:
 
-✨ Step 2: Adding Screenshots To Write-Ups.
+  src/components/Projects/Writeups
 
-If you want to include screenshots, diagrams, or images inside your project write-up documentation:
+Each project has its own small .js file in here, for example ThinkingLikeAHacker.js. Open the one you want to use and look at line 4. You will see something like:
 
-First upload all screenshots and images to this folder:
+  import pdf from "../../../Assets/Project-Writeups-PDF/SampleWriteup_OnePage.pdf";
 
-      src/Assets/Writeup-Images
+Replace only the file name at the end:
 
-Once uploaded, when your writing your writeup documentation and want to add an image use this line of code and only change the screenshot name `Screenshot 2026-05-25 152410.png` to the name of whatever image you want to add in your write-up:
+  SampleWriteup_OnePage.pdf
 
-      <img src="../../Assets/Project-Writeups/Screenshot 2026-05-25 152410.png" />
+with the exact file name of the PDF you uploaded in Step 1. Then click Commit Changes.
 
-Nothing should happen visually on the portfolio so far. In the next step you will start to see the changes on the portfolio.
+⚠️ Important
 
+Do not change anything else on that line, and do not edit these two files:
 
----
+  WriteupTemplate.js
+  WriteupPDF.js
 
+They control how every write-up looks (the page layout, the page buttons and the download button), so editing them can break all of your write-ups at once.
+
+If you want to add a brand new project instead of editing one of the existing ones, jump to Step 6.
 
 ✨ Step 3: Customizing Your Projects Text
 
 Each individual project card contains text that helps visitors understand:
 
-* The project title
-* What the project does
-* And why the project matters
+The project title
+What the project does
+And why the project matters
 
 Open the Projects.js File. Located here:
 
-      src/components/Projects/Projects.js
+  src/components/Projects/Projects.js
 
-Yes, the file is called **Projects.js**. This file controls all of the project cards displayed in the Projects section of your portfolio.
+Yes, the file is called Projects.js. This file controls all of the project cards displayed in the Projects section of your portfolio.
 
-Inside `Projects.js`, you will find instructions on **line 19**:
+Inside Projects.js, you will find instructions on line 19:
 
 Each project card contains:
 
-* A title
-* A description
-* A write-up link
-* An image pathway
+A title
+A description
+A write-up link
+An image pathway
 
 To change the words displayed on the project cards, edit the text inside both the:
 
-      title=
-      description=
-
----
-
+  title=
+  description=
 
 ✨ Step 4: Connecting Your Write-Up to the Main Project Card
 
 Each project card contains a line similar to this:
 
-      writeupLink="/writeup/ThinkingLikeAHacker"
+  writeupLink="/writeup/ThinkingLikeAHacker"
 
 This controls which write-up page opens when someone clicks the view project button.
 
-Only change the write-up name at the end.
+Only change the write-up name at the end. The name must be exactly the same as the file name of the write-up file from Step 2 or Step 6, without the .js. Capital letters matter.
 
 Example:
 
-      writeupLink="/writeup/ThinkingLikeAHacker"
-      
-      to
+  writeupLink="/writeup/ThinkingLikeAHacker"
+  
+  to
 
-      writeupLink="/writeup/PromptInjection"
-      
+  writeupLink="/writeup/PromptInjection"
+
+This example only works if you have a file called PromptInjection.js inside src/components/Projects/Writeups. If the names don’t match exactly, visitors will see a “Writeup not found.” message instead of your write-up.
+
 ⚠️ Do NOT Change This Part
 
-      writeupLink="/writeup/
+  writeupLink="/writeup/
 
 Only replace the final write-up name.
 
 Changing the structure incorrectly may stop the project links from working properly.
 
+💡 Good To Know
 
----
-
+The file names don’t have to match the project title. For example, the sample card called “Peeking Into a Network” opens ThreatHuntingOnABudget.js. All that matters is that the writeupLink matches a real file name.
 
 ✨ Step 5: Changing The Image On The Main Project Card
 
 If you want to change the image on the main projects page of each individual project card. First, locate this folder:
 
-      src/Assets/ProjectImages
+  src/Assets/ProjectImages
 
 Upload your own image into this folder using the same upload process discussed earlier.
 
 Head over to this file:
 
-      src/components/Projects/Projects.js
+  src/components/Projects/Projects.js
 
 In the individual projects section you will see something like:
 
-      imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
+  imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
 
-Change the image name only replace `placeholder1.jpeg` with the exact name of your uploaded image.
+Change the image name only replace placeholder1.jpeg with the exact name of your uploaded image.
 
 ⚠️ Important
 
 Do not change this part:
 
-      imgPath={require("../../Assets/ProjectImages/
+  imgPath={require("../../Assets/ProjectImages/
 
 Only replace the image file name at the end.
 
 If the image name is incorrect or misspelled, the project image will not display correctly.
 
+💡 Helpful Tip
 
----
-
+Project card images are shown in a wide box and cropped to fit, so landscape images (wider than they are tall) look best.
 
 ✨ Step 6: Adding New Projects To The Portfolio
 
-If you want to add additional project cards to your portfolio. Copy and paste all code between one individual project section:
+Adding a new project means adding a new write-up page and a new project card.
 
-      <Col md={4} className="project-card">
-      Your New Project
-      </Col>
+Part A: Create the write-up page
 
-Then replace the:
+Upload your PDF to src/Assets/Project-Writeups-PDF (Step 1).
+Go to src/components/Projects/Writeups, click Add file, then Create new file.
+Name the file after your project, with no spaces and ending in .js. For example: PromptInjection.js
+Paste in the code below. Change only YourWriteup.pdf (your PDF file name) and the two PromptInjection names (so they match your file name).
+Click Commit Changes.
+js
+import React from "react";
+import WriteupTemplate from "./WriteupTemplate";
+import WriteupPDF from "./WriteupPDF";
+import pdf from "../../../Assets/Project-Writeups-PDF/YourWriteup.pdf";
 
-* Title
-* Description
-* Write-up link
-* Image
-* And project information
+function PromptInjection() {
+  return (
+    <WriteupTemplate pdf={pdf}>
+      <WriteupPDF pdf={pdf} />
+    </WriteupTemplate>
+  );
+}
+
+export default PromptInjection;
+
+Part B: Add the project card
+
+Open src/components/Projects/Projects.js. Copy and paste all code between one individual project section, from <Col md={4} className="project-card"> down to its closing </Col>. For example:
+
+  <Col md={4} className="project-card">
+    <ProjectCard
+      imgPath={require("../../Assets/ProjectImages/placeholder1.jpeg")}
+      title="Your Project Title"
+      description="A short description of your project."
+      writeupLink="/writeup/PromptInjection"
+    />
+  </Col>
+
+Paste it below the last project and above the closing </Row> line, then replace the:
+
+Title
+Description
+Write-up link (use the file name from Part A)
+Image
 
 with your own content.
 
@@ -787,9 +823,9 @@ with your own content.
 
 When copying project cards:
 
-* Keep the same formatting and indentation
-* Copy the entire project block
-* Avoid deleting brackets or symbols accidentally
+Keep the same formatting and indentation
+Copy the entire project block
+Avoid deleting brackets or symbols accidentally
 
 Small formatting mistakes can cause the Projects section to break.
 
