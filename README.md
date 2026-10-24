@@ -1,7 +1,7 @@
 Hey There,
 Before you begin, it is highly recommended that you customize this portfolio on a **laptop or medium-to-large screen device**.
 
-## 🖥️ Setup Recommendation
+# 🖥️ Setup Recommendation
 
 For the smoothest experience, it is recommended that you have 2 browser tabs open side-by-side while customizing the portfolio.
 
@@ -306,7 +306,7 @@ Head back to your GitHub under the Guaranteed-Portoflio main page, like the imag
 
 ---
 
-## 🏠 Home Page Customization
+# 🏠 Home Page Customization
 
 ✨ Step 1: Open the Correct File
 
